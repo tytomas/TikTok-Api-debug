@@ -76,7 +76,7 @@ class Trending:
             if not res.get("hasMore", False) and not first:
                 Trending.parent.logger.info(
                     "TikTok isn't sending more TikToks beyond this point."
-                )
+                
                 return
 
             first = False
