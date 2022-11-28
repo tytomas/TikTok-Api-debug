@@ -84,7 +84,8 @@ class Search:
         #)
         #ttwid = spawn.cookies["ttwid"]
 
-        spawn = requests.get(
+        #spawn = requests.get(
+        spawn = .get(
             "https://www.tiktok.com",
             proxies=Search.parent._format_proxy(processed.proxy),
             **Search.parent._requests_extra_kwargs,
